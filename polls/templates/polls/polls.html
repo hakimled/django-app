@@ -6,14 +6,32 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>django App</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen'
-     href="{% static 'css/main.css' %}">
+     <link rel="stylesheet" type="text/css"
+      href="{% static 'css/mai.css' %}">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+      </style>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
     
 </head>
 <body>
-    <h1>this is a django application</h1>
+    <h1>Choose your best player</h1>
 
-    <script src='main.js'></script>
     
+    <div class="votes">
+        <div class="candidate">
+            <img src="{% static 'img/messi.jpg' %}" alt="teboune">
+        </div>
+        <div class="candidate">
+            <a href=""><img src="{% static 'img/ronaldo.webp' %}" alt="tahari"></a>
+        </div>
+    </div>
+
+
+
+    
+    <script src="{% static 'js/main.js' %}"></script>
 </body>
 </html>
