@@ -8,6 +8,9 @@ h1{
     text-transform:capitalize;
     font-family: 'Roboto', sans-serif;
 }
+h3{
+    text-align: center;
+}
 div.votes{
     display: flex;
     flex-direction: row;
